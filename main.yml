@@ -3,6 +3,14 @@
   hosts: all
 
   tasks:
+  - name: install prerequisites
+    package:
+      name:
+      - wget
+      - vim
+      - git
+      state: present
+
   - name: install apache
     package:
       name: httpd
