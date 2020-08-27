@@ -24,8 +24,8 @@
 
   - name: pull melodi
     git:
-      repo: https://github.com/ikambarov/melodi.git
-      version: master
+      repo: {{ melodi_repo }}
+      version: {{ melodi_branch }}
       dest: /var/www/html/
 
   - name: recursively change ownership of a directory
