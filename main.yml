@@ -27,6 +27,7 @@
       repo: "{{ melodi_repo }}"
       version: "{{ melodi_branch }}"
       dest: /var/www/html/
+      force: yes
 
   - name: recursively change ownership of a directory
     file:
