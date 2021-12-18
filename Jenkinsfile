@@ -13,3 +13,4 @@ node{
         ansiblePlaybook credentialsId: 'jenkins-master-ssh-key', disableHostKeyChecking: true, inventory: "${params.IPADDRESS},", playbook: 'main.yml'
     }
 }
+o{}
