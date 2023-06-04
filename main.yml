@@ -1,6 +1,6 @@
 ---
 - name: Install melodi
-  hosts: 165.227.201.55
+  hosts: 157.245.92.52
 
   tasks:
   - name: install prerequisites
