@@ -1,6 +1,6 @@
 ---
 - name: Install melodi
-  hosts: $IP
+  hosts: 165.227.201.55
 
   tasks:
   - name: install prerequisites
